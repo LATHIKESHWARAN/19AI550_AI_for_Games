@@ -1,6 +1,6 @@
 # Ex.No: 7   Implementation of Alpha Beta Pruning 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE:    12-09-2024                                                                        
+### REGISTER NUMBER : 212222230072
 ### AIM: 
 Write a Alpha beta pruning algorithm to find the optimal value of MAX Player from the given graph.
 ### Steps:
@@ -16,7 +16,19 @@ Write a Alpha beta pruning algorithm to find the optimal value of MAX Player fro
 
 ### Program:
 
+```
+# Define a large negative and positive value to represent infinity
+INF = float('inf')
 
+# Alpha-Beta Pruning function
+def alpha_beta_pruning(depth, node_index, maximizing_player, values, alpha, beta):
+    # Base case: leaf node is reached
+    if depth == 3:
+        return values[node_index]
+
+    if maximizing_player:
+…
+```
 
 
 
@@ -27,6 +39,9 @@ Write a Alpha beta pruning algorithm to find the optimal value of MAX Player fro
 
 
 ### Output:
+
+![image](https://github.com/user-attachments/assets/a5c3ea88-3ca2-44d7-b745-8fd55407f84e)
+
 
 
 
